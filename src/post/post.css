@@ -31,4 +31,29 @@
 
 .postTitle{
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDate{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(136, 56, 56);
+    margin-top: 15px;
+}
+
+.postDesc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    color: crimson;
+    line-height: 24px;
+    margin-top: 15px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
