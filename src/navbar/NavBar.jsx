@@ -9,7 +9,7 @@ export default function NavBar() {
                 <i className="topIcon fab fa-instagram"></i>
                 <i className="topIcon fab fa-tiktok"></i>
             </div>
-            <div className = "topCenter "> 
+            <div className = "topCenter ">
                 <ul className  = 'topList'>
                     <li className = "topListItem">News</li>
                     <li className = "topListItem">About</li>
