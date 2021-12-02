@@ -1,5 +1,6 @@
-import Write from "./Components/pages/home/write/Write";
 import NavBar from "./Components/navbar/NavBar";
+import Settings from "./Components/pages/home/settings/Settings";
+
 
 
 
@@ -8,8 +9,7 @@ function App() {
     <div> 
 
       <NavBar/>
-      <Write/>
-      
+      <Settings/>
      
       
       
