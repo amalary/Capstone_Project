@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import "./navBar.css"
 
 export default function NavBar() {
+    const user = false;
     return (
         <div className = "nav">
             <div className = "topLeft ">
@@ -11,18 +13,42 @@ export default function NavBar() {
             </div>
             <div className = "topCenter ">
                 <ul className  = 'topList'>
-                    <li className = "topListItem">News</li>
-                    <li className = "topListItem">About</li>
-                    <li className = "topListItem">Contact</li>
-                    <li className = "topListItem">Write</li>
-                    <li className = "topListItem">Logout</li>
+                    <li className = "topListItem">
+                        <Link className = "link"to ="/">Home</Link>
+                    </li>
+                    <li className = "topListItem"> <Link className = "link"to ="/">About</Link></li>
+                    <li className = "topListItem"> <Link className = "link"to ="/">Contact</Link></li>
+                    <li className = "topListItem"> <Link className = "link"to ="/write">Write</Link></li>
+                    <li className = "topListItem">
+                        {user && 'Logout'}
+                    </li>
                 
                 </ul>
             
             </div>
             <div className = "topRight ">
-                <img className = "topImage"
-                src =  "https://external-preview.redd.it/0VDtPltJ_YFyW7UxSUNoJFiwlDmtKsDlBYv_06gRub8.png?width=640&crop=smart&format=pjpg&auto=webp&s=40772d8343b68d9b806ca407b09251c2a2e48f2f " alt = ""/>
+                {
+                    user ? (
+
+                        <img className = "topImage"
+                        src =  "https://external-preview.redd.it/0VDtPltJ_YFyW7UxSUNoJFiwlDmtKsDlBYv_06gRub8.png?width=640&crop=smart&format=pjpg&auto=webp&s=40772d8343b68d9b806ca407b09251c2a2e48f2f " alt = ""/>
+                        
+                    ): 
+                    (
+                        <ul className = "topList">
+                            < li className = "topListItem">
+                                <Link className = "link" to = "/login">Login</Link>
+
+                            </li>
+                            < li className = "topListItem">
+
+                                <Link className = "link"to ="/register">Register</Link>
+                            </li>
+
+                        </ul>
+                        
+                    )
+                }
                 <i className="topSearchIcon fab fa-searchengin"></i>
             </div>
         </div>
