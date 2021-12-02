@@ -55,3 +55,15 @@
     /* border: none; */ 
 
 }
+
+.userNameTitle{
+    color: crimson;
+}
+.emailNameTitle{
+    color: crimson;
+
+}
+
+.passwordNameTitle{
+    color: crimson;
+}

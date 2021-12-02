@@ -6,15 +6,15 @@ export default function register() {
             <span className="registerTitle">Register</span>
             <form  className="registerForm">
 
-                <label>Username</label>
+                <label className = "userNameTitle">Username</label>
                 <input type = "text"  className = "registerInput" placeholder = "Enter Username"></input>
-                <label>Email</label>
+                <label className ="emailNameTitle">Email</label>
                 <input type = "text"  className = "registerInput" placeholder = "Enter Email"></input>
-                <label>Password</label>
+                <label className = "passwordNameTitle">Password</label>
                 <input type = "password" className = "registerInput" placeholder = "Password" ></input>
                 <button className = "registerButton">Register</button>
             </form>
-            <button className="registerLoginButton">Login</button>
+            <button className="RegisterLoginButton">Login</button>
             
         </div>
     )
