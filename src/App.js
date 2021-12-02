@@ -1,4 +1,4 @@
-import Single from "./single/Single";
+import Write from "./Components/pages/home/write/Write";
 import NavBar from "./Components/navbar/NavBar";
 
 
@@ -8,7 +8,7 @@ function App() {
     <div> 
 
       <NavBar/>
-      <Single/>
+      <Write/>
       
      
       
