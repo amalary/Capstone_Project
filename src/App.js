@@ -1,5 +1,6 @@
 import NavBar from "./Components/navbar/NavBar";
-import Settings from "./Components/pages/home/settings/Settings";
+import Register from "./Components/pages/register/Register"
+
 
 
 
@@ -9,8 +10,7 @@ function App() {
     <div> 
 
       <NavBar/>
-      <Settings/>
-     
+      <Register/>
       
       
     

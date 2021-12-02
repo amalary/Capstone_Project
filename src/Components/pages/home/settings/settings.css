@@ -45,7 +45,7 @@
     object-fit: cover;
 }
 
-.settignsPPIcon{
+.settingsPPIcon{
     width:25px;
     height: 25px;
     border-radius: 50%;
@@ -58,7 +58,7 @@
     cursor: pointer;
 }
 
-.settingdForm > label{
+.settingsForm > label{
     font-size:20px ;
     margin-top: 20px;
 
@@ -83,3 +83,7 @@
     cursor: pointer;
 
 }
+
+.settingsSubmit:hover {
+    background-color: rgb(0, 0, 0);
+  }
