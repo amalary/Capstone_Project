@@ -1,14 +1,18 @@
-import Home from "./Components/pages/home/Home";
+import Single from "./single/Single";
 import NavBar from "./Components/navbar/NavBar";
 
 
 
 function App() {
   return (
-    <div className = "Containter"> 
+    <div> 
 
       <NavBar/>
-      <Home/>
+      <Single/>
+      
+     
+      
+      
     
 
 
