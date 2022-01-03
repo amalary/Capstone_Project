@@ -1,5 +1,5 @@
 
-![](images/blog_img)
+![](images/blog_img.png)
 
 
 
