@@ -13,8 +13,10 @@ import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
 
 
+
+
 function App() {
-  const user = false;
+  const user = true;
   return (
     <div> 
     <Router>
@@ -22,7 +24,8 @@ function App() {
         <Switch>
         <Route exact path="/">
             <Home />
-          </Route>
+
+            </Route>
         <Route path="/register">
             {user ? <Home/>: <Register />}
         </Route>
@@ -45,16 +48,12 @@ function App() {
 
 
     </Router>
-
-      
-      
-      
     
 
 
 
     </div>
-  );
+    );
 }
 
 export default App;

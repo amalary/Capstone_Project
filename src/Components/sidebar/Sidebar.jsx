@@ -5,7 +5,7 @@ export default function Sidebar() {
         <div className = "sidebar">
             <div className = "sidebarItem">
                 <span className = "sidebarTitle"> About Us</span>
-                <img src = "https://images.unsplash.com/photo-1524242109383-e349707a106b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmV3JTIweW9ya3xlbnwwfDF8MHx8&auto=format&fit=crop&w=800&q=60" alt = "" />
+                <img src = "https://images.unsplash.com/photo-1575305331117-0580726a1d34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80" alt = "" />
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus reiciendis officiis ducimus nisi suscipit dolore expedita. Perferendis ratione ab eum, voluptates explicabo animi blanditiis doloribus est molestiae, suscipit maiores.</p>
             
